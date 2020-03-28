@@ -1,0 +1,15 @@
+{
+  "name": "horseless.todomvc",
+  "version": "0.0.0",
+  "description": "hello-world of frameworks implimentation for horseless",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtudury/horseless-todomvc.git"
+  },
+  "author": "David Tudury <david.tudury@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dtudury/horseless-todomvc/issues"
+  },
+  "homepage": "https://github.com/dtudury/horseless-todomvc#readme"
+}
