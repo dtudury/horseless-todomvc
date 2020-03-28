@@ -127,15 +127,15 @@
 
 			// todo view
 			return h`
-					<li ${completedAndOrEditing}>
-						<div class="view" ondblclick=${editLabel}>
-							<input class="toggle" type="checkbox" checked=${isComplete} onchange=${toggleComplete}/>
-							<label>${label}</label>
-							<button class="destroy" onclick=${selfDestruct}></button>
-						</div>
-						<input class="edit" value=${label} onblur=${completeEdit} onkeydown=${handleEdit}/>
-					</li>
-				`
+				<li ${completedAndOrEditing}>
+					<div class="view" ondblclick=${editLabel}>
+						<input class="toggle" type="checkbox" checked=${isComplete} onchange=${toggleComplete}/>
+						<label>${label}</label>
+						<button class="destroy" onclick=${selfDestruct}></button>
+					</div>
+					<input class="edit" value=${label} onblur=${completeEdit} onkeydown=${handleEdit}/>
+				</li>
+			`
 		}
 
 		// app view
