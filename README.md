@@ -2,7 +2,7 @@
 > horseless: Paste your html into a template and use functions of your model for the arguments. When you update your model the DOM updates itself. No compiling and nothing is virtual.
 
 ## PROS
-* 7.5KB download
+* 7KB download
 * free and open source
 * it's something new
 
